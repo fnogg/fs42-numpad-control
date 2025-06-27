@@ -7,6 +7,7 @@ This is designed to be used with [FieldStation42](https://github.com/shane-mason
 ### 1. Clone this repo
 
 `git clone github.com/fnogg/fs42-numpad-control`
+
 `cd fs42-numpad-control`
 
 ### 2. Install dependencies
@@ -26,8 +27,11 @@ Copy `.env.example` to `.env`, then edit the values in `.env` as needed to confi
 Note before running the script that it will take over all input from the configured device. This means you won't be able to exit the script using the same keyboard, so use with caution if you don't have another input method or ssh connection available.
 
 To start the script:
+
 `cd ~/fs42-numpad-control`
+
 `source env/bin/activate`
+
 `python3 fs42-numpad-control.py`
 
 ## Auto start
